@@ -3,8 +3,8 @@ Maintainer: Jared Szechy <jared.szechy@gmail.com>
 Section: python
 Priority: optional
 Build-Depends: python-setuptools (>= 0.6b3), debhelper (>= 7), python-support (>= 0.8.4)
-Standards-Version: 3.8.4
-XS-Python-Version: current
+Standards-Version: 3.9.1
+XS-Python-Version: >= 2.6
 
 Package: python-kegbot
 Architecture: all
