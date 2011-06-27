@@ -1,5 +1,5 @@
-kegbot (0.8.1) maverick; urgency=low
+kegbot (0.8.1-1) maverick; urgency=low
 
-  * Initial release.
+  * source package automatically created by stdeb 0.6.0
 
- -- Jared Szechy <jared.szechy@gmail.com>  Sat, 25 Jun 2011 13:46:39 -0400
+ -- Jared Szechy <jared.szechy@gmail.com>  Sun, 26 Jun 2011 20:39:31 -0400
