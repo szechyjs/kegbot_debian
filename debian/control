@@ -6,7 +6,7 @@ Build-Depends: python-setuptools (>= 0.6b3), debhelper (>= 7), python-support (>
 Standards-Version: 3.9.1
 XS-Python-Version: >= 2.6
 
-Package: python-kegbot
+Package: kegbot
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}, python-django-registration, python-django-extensions, python-mysqldb, python-imaging, python-gflags (>= 1.3), python-sphinx, python-django-nose, python-tz
 XB-Python-Version: ${python:Versions}
