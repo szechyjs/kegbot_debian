@@ -1,5 +1,10 @@
 #!/usr/bin/make -f
 
+pre-build:
+	rm -rf controller/ docs/ .gitignore LICENSE.txt README.md
+	mv pykeg/* .
+	rm -rf pykeg/
+
 %:
 	dh $@ --with python2
 
