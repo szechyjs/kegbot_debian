@@ -11,6 +11,7 @@ override_dh_auto_clean:
 	rm -f .gitignore 
 	rm -f LICENSE.txt 
 	rm -f README.md
-	[ -d pykeg ] && mv -v pykeg/* .
+	mkdir -p pykeg
+	mv -v pykeg/* .
 	rm -rf pykeg/
 
