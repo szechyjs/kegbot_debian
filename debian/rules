@@ -6,7 +6,11 @@
 override_dh_auto_clean:
 	rm -rf *.egg-info
 	find . -name "*.pyc" | xargs rm -f
-	rm -rf controller/ docs/ .gitignore LICENSE.txt README.md
-	mv -v pykeg/* .
-	rm -rf pykeg/
+	[ -d controller ] && rm -rf controller/ 
+	[ -d docs ] && rm -rf docs/ 
+	[ -f .gitignore ] && rm .gitignore 
+	[ -f LICENSE.txt ] && rm LICENSE.txt 
+	[ -f README.md ] && rm README.md
+	[ -d pykeg ] && mv -v pykeg/* .
+	[ -d pykeg ] && rm -rf pykeg/
 
